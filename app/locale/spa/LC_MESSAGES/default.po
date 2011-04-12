@@ -1,0 +1,63 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2011-04-12 10:39-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mauro Zadunaisky <maurozadu@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: \views\elements\4translate.php:2
+msgid "January"
+msgstr "Enero"
+
+#: \views\elements\4translate.php:2
+msgid "February"
+msgstr "Febrero"
+
+#: \views\elements\4translate.php:2
+msgid "March"
+msgstr "Marzo"
+
+#: \views\elements\4translate.php:2
+msgid "April"
+msgstr "Abril"
+
+#: \views\elements\4translate.php:2
+msgid "May"
+msgstr "Mayo"
+
+#: \views\elements\4translate.php:2
+msgid "June"
+msgstr "Junio"
+
+#: \views\elements\4translate.php:3
+msgid "July"
+msgstr "Julio"
+
+#: \views\elements\4translate.php:3
+msgid "August"
+msgstr "Agosto"
+
+#: \views\elements\4translate.php:3
+msgid "September"
+msgstr "Septiembre"
+
+#: \views\elements\4translate.php:3
+msgid "October"
+msgstr "Octubre"
+
+#: \views\elements\4translate.php:3
+msgid "November"
+msgstr "Noviembre"
+
+#: \views\elements\4translate.php:3
+msgid "December"
+msgstr "Diciembre"
+
+#: \views\elements\4translate.php:5
+msgid "Name"
+msgstr "Nombre"
+
