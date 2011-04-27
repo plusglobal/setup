@@ -6,13 +6,14 @@
 <?php
 echo $html->meta('icon');
 echo $html->css(array('reseter', 'base', 'default'));
-//echo $html->script(array('jquery-1.4.2.min', 'default));
+echo $html->script(array('jquery-1.4.2.min', 'default'));
 echo $scripts_for_layout;
 ?>
 </head>
 <body>
 <div>
 <?php
+echo $this->element('ie6_warning');
 echo $session->flash();
 echo $content_for_layout;
 ?>
