@@ -1,0 +1,123 @@
+/* base */
+
+/* clearfix */
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}
+ /* End hide from IE Mac */
+
+
+/* text from database */
+
+.html_text{
+	font-size: 1.1em;
+	margin-bottom: 1em;
+	line-height: 1.1em;
+}
+
+.html_text table td{
+	border: 1px solid #ccc;
+	padding: .3em;
+}
+
+.html_text ul, .html_text ol, .html_text p, .html_text table{
+	margin-bottom: 1em;
+}
+
+.html_text ul, .html_text ul li{
+    list-style-type: disc;
+}
+
+.html_text ol, .html_text ol li{
+    list-style-type: decimal;
+}
+
+.html_text li{
+    margin-left: 2em;
+}
+
+.html_text strong, .html_text b, .html_text td strong, .html_text td b {
+	font-weight: bold;
+}
+.html_text em{
+	font-style:italic;
+}
+
+.html_text a{
+	text-decoration: underline;
+}
+
+/* flash messages */
+
+.flash {
+	padding: .8em;
+	padding-left: 28px;
+	margin-bottom: 1em;
+	border: 2px solid #ddd;
+	background: 6px center no-repeat;
+	font-weight: bold;
+}
+.flash_error {
+	background-color: #FBE3E4;
+	background-image: url(img/dialog-error.png);
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+.flash_notice {
+	background-color: #FFF6BF;
+	background-image: url(img/dialog-warning.png);
+	color: #514721;
+	border-color: #FFD324;
+}
+.flash_success {
+	background-color: #E6EFC2;
+	background-image: url(img/emblem-default.png);
+	color: #264409;
+	border-color: #C6D880;
+}
+
+/* IE6 notice */
+
+.ie6 {
+	background: #D22521;
+	text-align: center;
+	height: 30px;
+}
+
+.ie6 div{
+	color: #fff;
+	font-size: 14px;
+	width: 960px;
+	padding-top: 4px;
+}
+
+.ie6 p{
+	font-weight: bold;
+	display: inline;
+}
+
+.ie6 ul{
+ 	display: inline;
+}
+
+.ie6 li{
+	margin-left: 5px;
+	font-size: 12px;
+	display: inline;
+}
+
+.ie6 a{
+	color: #fff;
+}
+
+.ie6 a:hover{
+	text-decoration: underline;
+}

@@ -5,7 +5,7 @@
 <title><?php echo $title_for_layout; ?></title>
 <?php
 echo $html->meta('icon');
-echo $html->css(array('default'));
+echo $html->css(array('reseter', 'base', 'default'));
 //echo $html->script(array('jquery-1.4.2.min', 'default));
 echo $scripts_for_layout;
 ?>
