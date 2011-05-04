@@ -26,7 +26,7 @@ body {
 	background: #003d4c;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
-	font-size:90%;
+	font-size: 12px;
 	margin: 0;
 }
 a {
@@ -47,8 +47,8 @@ h1, h2, h3, h4 {
 }
 h1 {
 	background:#fff;
-	color: #003d4c;
-	font-size: 100%;
+	color: red;
+	font-size: 240%;
 }
 h2 {
 	background:#fff;
@@ -285,7 +285,7 @@ input, textarea {
 	clear: both;
 	font-size: 140%;
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
-	padding: 1%;
+	padding: 3px;
 	width:98%;
 }
 select {
