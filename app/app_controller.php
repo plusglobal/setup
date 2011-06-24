@@ -12,7 +12,20 @@ class AppController extends Controller {
 
 	var $companyName = 'Company name';
 
-
 	//var $brwMenu = array();
+
+	function beforeRender() {
+		$this->_setTitle();
+
+	}
+
+	function _setTitle() {
+		if (!empty($this->pageTitle)) {
+			$this->pageTitle .= ' - ';
+		}
+		$this->pageTitle .= $companyName;
+		$this->set('title_for_layout', $this->pageTitle);
+	}
+
 
 }
