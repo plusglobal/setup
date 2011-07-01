@@ -23,7 +23,7 @@ class AppController extends Controller {
 		if (!empty($this->pageTitle)) {
 			$this->pageTitle .= ' - ';
 		}
-		$this->pageTitle .= $companyName;
+		$this->pageTitle .= $this->companyName;
 		$this->set('title_for_layout', $this->pageTitle);
 	}
 
