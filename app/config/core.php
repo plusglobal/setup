@@ -326,3 +326,9 @@ Configure::write('isLocal', $isLocal);
 	//Configure::write('Config.languages', array('es', 'en));
 
 	Configure::write('Routing.prefixes', array('brw'));
+
+	Configure::write('brwSettings', array(
+		'dateFormat' => 'd.m.Y',
+		'datetimeFormat' => 'd.m.Y h:i',
+	));
+	
