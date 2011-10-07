@@ -329,6 +329,5 @@ Configure::write('isLocal', $isLocal);
 
 	Configure::write('brwSettings', array(
 		'dateFormat' => 'd.m.Y',
-		'datetimeFormat' => 'd.m.Y h:i',
+		'datetimeFormat' => 'd.m.Y H:i',
 	));
-	
