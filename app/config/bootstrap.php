@@ -1,5 +1,6 @@
 <?php
 date_default_timezone_set('America/Argentina/Buenos_Aires');
+//date_default_timezone_set('Europe/Madrid');
 App::build(array('plugins' => array(ROOT . DS . 'plugins' . DS)));
 
 /**
