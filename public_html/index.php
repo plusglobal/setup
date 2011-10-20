@@ -50,7 +50,7 @@
  *
  */
 	if (!defined('CAKE_CORE_INCLUDE_PATH')) {
-		define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'cake' . DS . '1.3.12');
+		define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'cake' . DS . '1.3.13');
 	}
 
 /**
